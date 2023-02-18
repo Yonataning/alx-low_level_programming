@@ -16,10 +16,10 @@ int main(void)
 	}
 	alph = 'A';
 
-	while (alpha <= 'A')
+	while (alph <= 'A')
 	{
-		putchar(alpha);
-		alpha++;
+		putchar(alph);
+		alph++;
 	}
 	putchar("\n")
 	return (0);
