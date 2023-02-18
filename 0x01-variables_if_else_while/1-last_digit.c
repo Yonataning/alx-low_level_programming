@@ -3,10 +3,10 @@
 #include <time.h>
 
 /**
- * main - Prints last digit of a random generated number 
- and whether it is greater than 5 or its a 0 or less than 6
+ * main - Prints last digit of a randomly generated number 
+ * and whether it is greater than 5, less  than 6 or 0
  *
- * Returns: Always 0 (Success)
+ * Return: Always 0 (Success)
  */
 int main(void)
 {
@@ -21,7 +21,7 @@ int main(void)
 	}
 	else if ((n % 10) < 6 && (n % 10) != 0)
 	{
-		printf("Last digit of %d is %d and is less than 6 and not 0\n", 
+		printf("Last digit of %d is %d and is less than 6 and not 0\n",
 	n, n % 10);
 	}
 	else
