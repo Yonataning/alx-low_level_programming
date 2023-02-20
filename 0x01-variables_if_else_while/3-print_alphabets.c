@@ -7,20 +7,12 @@
  */
 int main(void)
 {
-	char alph = 'a';
+	char caps;
 
-	while (alph <= 'z')
-	{
-		putchar(alph);
-		alph++;
-	}
-	alph = 'A';
-
-	while (alph <= 'A')
-	{
-		putchar(alph);
-		alph++;
-	}
-	putchar("\n")
+	for (caps = 'a'; caps <= 'z'; caps++)
+		putchar(caps);
+	for (caps = 'A'; caps <= 'Z'; caps++)
+		putchar(caps);
+	putchar('\n');
 	return (0);
 }
