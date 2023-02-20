@@ -5,13 +5,13 @@
  *
  * Return: Always 0 (Success)
  */
-int main (void)
+int main(void)
 {
-	char x ;
+	char x;
 
 	for (x = 'a'; x <= 'z'; x++)
 	{
-		if(x != 'e' && x != 'q')
+		if (x != 'e' && x != 'q')
 				putchar(x);
 		putchar('\n');
 	}
