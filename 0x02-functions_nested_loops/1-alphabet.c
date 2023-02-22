@@ -1,3 +1,4 @@
+#include "stdio.h"
 #include <stdio.h>
 
 /**
@@ -12,8 +13,8 @@ int main(void)
 
 	for (alph = 'a'; alph <= 'z'; alph++)
 	{
-		putchar (void print_alphabet(void);
-				putchar ("\n");
+		putchar (alph);
+		putchar ("\n");
 	}
 	return(0);
 }
