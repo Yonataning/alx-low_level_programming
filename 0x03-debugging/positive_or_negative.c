@@ -12,6 +12,4 @@ void main(int j)
 		printf("%d is negative\n", j);
 	else
 		printf("%d is zero\n", j);
-
-	return (0);
 }
