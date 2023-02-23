@@ -7,11 +7,11 @@
 void main(int j)
 {
 	if (j >)
-		printf("%d is positive\n", j)
+		printf("%d is positive\n", j);
 	if (j <)
-		printf("%d is negative\n", j)
+		printf("%d is negative\n", j);
 	else
-		printf("%d is zero\n", j)
+		printf("%d is zero\n", j);
 
 	return (0);
 }
