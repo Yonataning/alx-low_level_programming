@@ -7,9 +7,9 @@
 */
 void positive_or_negative(int j)
 {
-	if (j >)
+	if (j > 0)
 		printf("%d is positive\n", j);
-	else if (j <)
+	else if (j < 0)
 		printf("%d is negative\n", j);
 	else
 		printf("%d is zero\n", j);
