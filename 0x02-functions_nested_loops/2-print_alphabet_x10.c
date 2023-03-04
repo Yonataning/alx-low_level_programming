@@ -1,7 +1,7 @@
 #include <stdio.h>
 
 /**
- * void print_alphabet_x10 - 10 times in lowercase
+ * print_alphabet_x10 - 10 times in lowercase
  * Return: void
  */
 void print_alphabet_x10(void)
@@ -16,6 +16,6 @@ void print_alphabet_x10(void)
 			putchar(k);
 		k++;
 		}
+		putchar('\n');
 	}
-	putchar('\n');
 }
