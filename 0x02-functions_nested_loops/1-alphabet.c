@@ -1,9 +1,8 @@
 #include <stdio.h>
 
 /**
- * main - Prints the alphabet, in lowercase, followed by a new line
- *
- * Return: 0
+ * print_alphabet - in lowercase, followed by a new line
+ * Return: void
  */
 void print_alphabet(void)
 
@@ -17,5 +16,5 @@ void print_alphabet(void)
 	c++;
 	}
 	putchar('\n');
-	
+
 }
